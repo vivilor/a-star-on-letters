@@ -1,0 +1,12 @@
+$cell-size: 80;
+$border-size: 1;
+
+
+$clr: darkcyan;
+$cell-size-px: $cell-size + 0px;
+$border-size-px: $border-size + 0px;
+
+:export {
+  cellSize: $cell-size;
+  borderSize: $border-size;
+}
